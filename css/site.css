@@ -9,29 +9,45 @@
  body {
      color: #272525;
  }
+
+ .fizz {
+    font-family: ethnocentric,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+ }
+
+ .magistral {
+    font-family: magistral,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
  
  
 
  h1,h2,h3,h4,h5,h6 {
-     color: #204990;
+     color: #030303;
  }
 
  footer {
      padding-right: 1rem;
  }
 
+ .bg-green {
+     color:#9ce29c
+ }
+
  footer .social>a {
-     color: var(--primary-color);
-     opacity: 0.85;
+     color: #9ce29c;
+     opacity: 0.90;
  }
 
  footer .social>a:hover {
     opacity: 0.95;
-    color: var(--secondary-color);
+    color: #3be63b;
  }
 
  .checklist >li i{
-     color: var(--primary-color);
+     color: #05db05;
  }
 
 code[class*="language-"],
