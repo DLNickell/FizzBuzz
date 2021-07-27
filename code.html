@@ -158,9 +158,17 @@ function displayData(fbArray) {
                     
                 </div>
                 <div class="col-lg-4">
-                    <h5 class="border-1 border-bottom border-dark"><strong> The code is structured in three functions</strong></h5>
-                    <h5>Hello World</h5>
-                    <p>Hello world is a function that displays an alert with a message of hello world</p>
+                    <h5 class="border-1 border-bottom border-dark"><strong> The code is structured in three functions</strong></h5> <br>
+                    <h5><strong>getValues</strong></h5>
+                    <p> <strong>getValues</strong> is a function that establishes the variables fizzValue and buzzValue. The values ane parsed and verified as integers. If the values are not integers and alert is diplayed indicating and integer must be entered as a value.</p> <br>
+                    <h5><strong>fizzBuzz</strong></h5> 
+                    <p> <strong>fizzBuzz</strong> passes the variables (fizzValue, buzzValue) and establishes an array with an index from 1 to 100. A for loop is used to determine if a number is divisible by both (fizzValue and buzzValue) if so, "FizzBuzz" will be displayed. If divisible by (fizzValue) "Fizz" will be displayed, If divisible by (buzzValue) "buzz" will be displayed.</p><br>
+                    <p>Any number not divisible by "3", "5" or "15" will be displayed as a number.</p>
+                    <br>
+                    <h5><strong>displayData</strong></h5> 
+                    <strong>displayData</strong> This function displays the results of the <strong>fizzBuzz</strong> function. In this app I have used a table structure defined in the HTML with the id class="fbTemplate". This allows the results to be displayed in a striped table with 5 columns for a clean look.</p> 
+                    <br>
+                    <p>The styling was done by applying a class to each display value, allowing Fizz to display red, Buzz displays blue and FizzBuzz is displayed in the custom branded green matching the logo on the home page.</p>
                 </div>
             </div>
     </div>
