@@ -70,6 +70,11 @@ code[class*="language-"],
             word-wrap: break-word;
 }
 
+.btn-fbtn {
+    background-color:#0cd40c;
+    color: white;
+}
+
  .bsicon {
      color:#7341bd;
  }
@@ -82,8 +87,8 @@ code[class*="language-"],
      color:orangered;
  } 
 
- .css3icon {
-     color:rgb(11,82,214;
+ .cssicon {
+     color:#2965f1;
  }
 
  

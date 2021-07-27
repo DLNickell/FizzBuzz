@@ -1,5 +1,5 @@
 
-//1.get values from the interface
+//get values from the interface
 //start controller function
 
 function getValues () {
@@ -23,10 +23,9 @@ function getValues () {
         displayData(fbArray);
     } else {
     alert("You must enter an integer!");
-}
+    }
     
 }
-
 
 //Do fizz buzz
 
@@ -60,7 +59,6 @@ function displayData(fbArray) {
 
     //get the template
     let templateRow = document.getElementById("fbTemplate");
-
     
     //clear the table
     tableBody.innerHTML = "";
@@ -87,10 +85,11 @@ function displayData(fbArray) {
         rowCols[4].classList.add(fbArray[index + 4]);
         rowCols[4].textContent = fbArray[index +4];        
 
+        //add all the rows to the table
         tableBody.appendChild(tableRow);
     }
     
     
-    //add all the rows to the table
+    
 
 }
