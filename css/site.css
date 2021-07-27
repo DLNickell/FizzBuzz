@@ -47,7 +47,20 @@
  }
 
  .checklist >li i{
-     color: #05db05;
+     color: #0cd40c;
+ }
+
+ .Fizz {
+    color: red;
+ }
+
+ .Buzz {
+    color: blue;
+ }
+
+ .FizzBuzz {
+    color: rgb(17, 212, 17);
+    font-weight: bold;
  }
 
 code[class*="language-"],
@@ -73,6 +86,7 @@ code[class*="language-"],
      color:rgb(11,82,214;
  }
 
+ 
  
 
  
